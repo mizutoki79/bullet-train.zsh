@@ -46,6 +46,16 @@ In order to use the theme, you will first need:
 
 1. Download the theme [here](http://raw.github.com/caiogondim/bullet-train-oh-my-zsh-theme/master/bullet-train.zsh-theme)
 
+via curl
+```
+curl -Lo ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/bullet-train.zsh-theme http://raw.github.com/caiogondim/bullet-train-oh-my-zsh-theme/master/bullet-train.zsh-theme
+```
+
+via wget
+```
+wget -P ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/ http://raw.github.com/caiogondim/bullet-train-oh-my-zsh-theme/master/bullet-train.zsh-theme
+```
+
 2. Put the file **bullet-train.zsh-theme** in **$ZSH_CUSTOM/themes/**
 
 3. Configure the theme in your **~/.zshrc** file:
